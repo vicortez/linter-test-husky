@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Observable } from 'rxjs/Observable';
+// tslint:disable-next-line: import-spacing
 import { Subject }    from 'rxjs/Subject';
+// tslint:disable-next-line: import-spacing
 import { of }         from 'rxjs/observable/of';
 
 import {
