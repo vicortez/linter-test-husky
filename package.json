@@ -12,11 +12,11 @@
     "prepare": "husky install",
     "p": "prettier --write ./src/app/hero-search/hero-search.component.html",
     "pre-commit": "lint-staged",
-    "tslint": "tslint --project . ./src/**/*.ts"
+    "tslint": "tslint --project . ./src/**/*.{ts,html,css}"
   },
   "private": true,
   "lint-staged": {
-    "src/**/*.{ts,css}": "tslint"
+    "src/**/*.{ts,css}": "tslint --project ."
   },
   "dependencies": {
     "@angular/animations": "^5.2.0",
